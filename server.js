@@ -5,7 +5,7 @@ const PORT = 8080;
 const app = express();
 
 app.get('/', function (req, res) {
-  res.send('Welcome to OpenShift_1!! ' + os.hostname() + '\n');
+  res.send('Welcome SVB!! ' + os.hostname() + '\n');
 });
 
 app.listen(PORT,'0.0.0.0');
